@@ -1,0 +1,69 @@
+.geralLogin{
+    background-color: lightblue;
+    height: 98vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+.login{
+    form{
+        background-color: lightblue;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        width: 600px;
+        margin-bottom: 60px;
+        
+    }
+
+    fieldset{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 30%;
+        padding: 3%;
+        border-radius: 10px;
+        border: 2px solid blue;
+
+        legend{
+            text-align: center;
+            color: black;
+        }
+
+        label{
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        input{
+            width: 70%;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 10%;
+        }
+        
+        button{
+            background-color: lightblue;
+            border: 0;
+            border-radius: 20px;
+            color: black;
+            display: inline-block;
+            font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 16px 21px;
+            position: relative;
+            text-align: center;
+            &:hover{
+                background-color: lightblue;
+                width: 150px;
+                padding: 18px 23px;
+            }
+        }
+        
+}
+}
+}
